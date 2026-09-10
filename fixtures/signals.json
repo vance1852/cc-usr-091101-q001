@@ -1,0 +1,5 @@
+[
+  {"event_id":"sig-101","source":"search","topic":"逆袭短篇","occurred_at":"2026-09-10T13:05:00+08:00","received_at":"2026-09-10T13:05:04+08:00","metrics":{"searches":1840,"posts":36},"region":"华东"},
+  {"event_id":"sig-101","source":"search","topic":"逆袭短篇","occurred_at":"2026-09-10T13:05:00+08:00","received_at":"2026-09-10T13:07:10+08:00","metrics":{"searches":1840,"posts":36},"region":"华东"},
+  {"event_id":"sig-099","source":"editor","topic":"非遗悬疑","occurred_at":"2026-09-10T12:40:00+08:00","received_at":"2026-09-10T13:08:00+08:00","metrics":{"mentions":12},"confidence":0.72}
+]
