@@ -1,0 +1,29 @@
+{
+  "sources": {
+    "hotlist": {"reliability": 0.95, "kind": "platform", "default_confidence": 1.0},
+    "search": {"reliability": 0.85, "kind": "demand", "default_confidence": 1.0},
+    "social": {"reliability": 0.7, "kind": "demand", "default_confidence": 1.0},
+    "editor": {"reliability": 0.6, "kind": "editor", "default_confidence": 0.5}
+  },
+  "unknown_source": {"reliability": 0.25, "kind": "unknown", "default_confidence": 0.5},
+  "metrics": {
+    "demand": ["searches", "views", "likes", "posts", "mentions", "heat"],
+    "supply": ["works", "competitors", "supply_titles"]
+  },
+  "window_hours": 6,
+  "prior_windows": 1,
+  "weights": {"heat": 0.35, "momentum": 0.25, "opportunity": 0.2, "audience": 0.2},
+  "thresholds": {
+    "min_confidence": 0.5,
+    "thin_evidence_events": 2,
+    "thin_evidence_sources": 2,
+    "late_lag_seconds": 7200
+  },
+  "penalties": {
+    "low_confidence": 0.7,
+    "thin_evidence": 0.85,
+    "late_lag": 0.9,
+    "unknown_source": 0.6
+  },
+  "feedback_adjustments": {"follow_up": 8.0, "shelve": -12.0, "misjudge": -30.0}
+}
