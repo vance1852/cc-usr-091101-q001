@@ -5,8 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "comic-topic-radar"
 version = "0.1.0"
-description = "漫剧选题信号领域契约"
+description = "漫剧选题机会雷达：可追溯的题材评分、冻结版本与编辑反馈"
 requires-python = ">=3.11"
+
+[project.scripts]
+topic-radar = "topic_radar.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

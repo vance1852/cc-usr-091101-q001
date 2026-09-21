@@ -1,0 +1,49 @@
+{
+  "windows": {
+    "heat_hours": 2.0,
+    "velocity_hours": 2.0,
+    "late_hours": 1.0
+  },
+  "source_weights": {
+    "platform": 1.0,
+    "search": 0.8,
+    "editor": 0.55
+  },
+  "default_source_weight": 0.5,
+  "source_confidence": {
+    "platform": 0.7,
+    "search": 0.9,
+    "editor": 0.7
+  },
+  "metric_weights": {
+    "searches": 0.002,
+    "posts": 0.05,
+    "mentions": 1.0,
+    "heat": 0.0005,
+    "views": 0.0001,
+    "rank": 0.0
+  },
+  "score_weights": {
+    "heat": 0.38,
+    "velocity": 0.27,
+    "audience_fit": 0.25,
+    "competition_density": 0.1
+  },
+  "thresholds": {
+    "min_confidence": 0.55,
+    "min_distinct_sources": 2
+  },
+  "uncategorized_fit": 0.3,
+  "downgrade_multipliers": {
+    "low_confidence": 0.7,
+    "insufficient_sources": 0.85,
+    "uncategorized": 0.9,
+    "cooling": 0.8
+  },
+  "feedback_adjustments": {
+    "follow": 0.1,
+    "shelve": -0.15,
+    "misjudge": -0.5
+  },
+  "velocity_newcomer_rate": 5.0
+}
